@@ -1,5 +1,5 @@
 
-# `nbdev` Tutorial
+# `nbdev_tutorial` module
 > Examples and getting familiar with this development environment.
 
 
