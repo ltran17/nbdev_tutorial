@@ -4,5 +4,9 @@ __all__ = ['say_hello']
 
 # Cell
 def say_hello(to):
-    "I should say hello everybody?"
-    return f'Hello {to}!'
+    if to == 'Jimmy McGill':
+        return 'S\'all good, man.'
+    elif to == 'Jesse Pinkman':
+        return 'Yo'
+    else:
+        return f'Hello {to}!'

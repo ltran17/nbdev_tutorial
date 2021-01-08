@@ -7,7 +7,7 @@ This file will become your README and also the index of your documentation.
 
 ## Install
 
-`pip install your_project_name`
+`pip install nbdev_tutorial`
 
 ## How to use
 
@@ -24,7 +24,7 @@ say_hello('everybody')
 
 
 
-It's so easy to say hello.
+A couple of special replies:
 
 ```python
 say_hello('Jimmy McGill')
@@ -33,6 +33,17 @@ say_hello('Jimmy McGill')
 
 
 
-    'Hello Jimmy McGill!'
+    "S'all good, man."
+
+
+
+```python
+say_hello('Jesse Pinkman')
+```
+
+
+
+
+    'Yo'
 
 
