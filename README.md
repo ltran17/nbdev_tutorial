@@ -24,7 +24,7 @@ say_hello('everybody')
 
 
 
-A couple of special replies:
+There are a couple of Easter eggs in this function.
 
 ```python
 say_hello('Jimmy McGill')
@@ -37,8 +37,22 @@ say_hello('Jimmy McGill')
 
 
 
+There's a class, too!
+
 ```python
-say_hello('Jesse Pinkman')
+greet = HelloSayer('everybody')
+greet.say()
+```
+
+
+
+
+    'Hello everybody!'
+
+
+
+```python
+HelloSayer('Jesse Pinkman').say()
 ```
 
 
