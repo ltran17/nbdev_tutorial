@@ -4,7 +4,7 @@ __all__ = ['say_hello', 'HelloSayer']
 
 # Cell
 def say_hello(to):
-    "Say hello to {to}...with a couple of exceptions."
+    "`say_hello` to {to}...with a couple of exceptions."
     if to == 'Jimmy McGill':
         return 'S\'all good, man.'
     elif to == 'Jesse Pinkman':
@@ -18,5 +18,5 @@ class HelloSayer:
     def __init__(self, to): self.to = to
 
     def say(self):
-        "Do the saying"
+        "Do the saying with `say`"
         return say_hello(self.to)
